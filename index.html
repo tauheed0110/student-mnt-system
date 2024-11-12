@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <header>Student Portal</header>
+        <div id="main">
+            <!-- show table and all content -->
+            <div id="search-items">
+                <input type="text" id="search-input" name="search" placeholder="Search">
+                <button id="search-btn">Search</button>
+            </div>
+            <div id="flex-btn">
+                <button class="btn" id="sort-az">Sort A&rarr;Z;</button>
+                <button class="btn" id="sort-za">Sort Z&rarr;A;</button>
+                <button class="btn" id="sort-marks">Sort By Marks</button>
+                <button class="btn" id="sort-passing">Sort By Passsing</button>
+                <button class="btn" id="sort-class">Sort By Class</button>
+                <button class="btn" id="sort-gender">Sort By Gender</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col1">Id</th>
+                        <th class="col2">Name</th>
+                        <th class="col3">Gender</th>
+                        <th class="col4">Class</th>
+                        <th class="col5">Marks</th>
+                        <th class="col6">Passig</th>
+                        <th class="col7">Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- data to be loaded here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
