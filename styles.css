@@ -103,3 +103,7 @@ td, th{
     display: flex;
     align-items: center;
 }
+
+button{
+    cursor: pointer;
+}
